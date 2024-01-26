@@ -142,3 +142,25 @@ a {
 .info__content {
   flex-basis: 415px;
 }
+.info__part_second .info__text {
+  max-width: 352px;
+}
+.info__part_third .info__text {
+  max-width: 377px;
+}
+.info__table {
+  flex-basis: 450px;
+  top: 20px;
+  border-bottom: 1px solid #040404;
+  position: relative;
+}
+.info__table::before {
+  content: "";
+  top: -20px;
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid #040404;
+}
+.info__table td {
+  padding-bottom: 20px;
+}
