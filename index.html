@@ -12,6 +12,11 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js" defer></script>
   </head>
   <body>
@@ -271,7 +276,19 @@
       </section>
 
       <section class="blog">
-        <div class="container"></div>
+        <div class="container">
+          <div class="blog__title">БЛОГ</div>
+          <div class="blog__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="blog__quotes"></div>
+        </div>
       </section>
     </main>
   </body>
