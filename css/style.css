@@ -344,3 +344,32 @@ a {
 .swiper-button-right {
   transform: translateX(8px);
 }
+
+.blog__quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+.blockquote__name {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.blog__quote-box {
+  flex-basis: 434px;
+}
+.blockquote {
+  margin-bottom: 30px;
+}
+.blockquote__text {
+  font-style: italic;
+}
+.blog__quote-img {
+  flex-basis: 438px;
+}
+.blockquote__name span {
+  display: block;
+  color: #9f6b08;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
