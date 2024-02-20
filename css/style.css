@@ -57,10 +57,10 @@ li {
   padding-top: 25px;
 }
 .menu-left {
-  padding-right: 25px;
+  /* padding-right: 25px; */
 }
 .menu-right {
-  padding-right: 80px;
+  padding-right: 59px;
 }
 .menu-link {
   color: #363636;
