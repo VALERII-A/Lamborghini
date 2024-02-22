@@ -467,13 +467,45 @@ li {
     width: 45px;
     background-color: transparent;
     border: none;
+    z-index: 10;
   }
   .menu-btn span {
     height: 3px;
     width: 100%;
     background-color: #fff;
   }
-  .menu-mobile {
+  .menu-mobile_closed {
     display: none;
+  }
+  .menu-mobile {
+    flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    height: 100vh;
+    text-align: center;
+    padding-top: 140px;
+    animation: slide 1s forwards;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  .menu-link {
+    display: block;
+    color: #fff;
+    font-size: 3vh;
+    padding: 15px 0;
+  }
+  .logo {
+    z-index: 10;
   }
 }
